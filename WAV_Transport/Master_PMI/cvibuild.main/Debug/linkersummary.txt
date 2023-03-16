@@ -1,0 +1,14 @@
+com_port.obj
+crcLib.obj
+main.obj
+protocol.obj
+ui_setting.obj
+wav_read.obj
+cvi.lib
+cvistart.lib
+advapi32.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

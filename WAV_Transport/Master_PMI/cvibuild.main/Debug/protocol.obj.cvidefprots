@@ -1,0 +1,20 @@
+[FileSize]
+Class="Function"
+Prototype="long FileSize(FILE *fp);"
+
+[JudgeCRC]
+Class="Function"
+Prototype="int JudgeCRC(DataTransmit *data);"
+
+[UserProtocol]
+Class="Function"
+Prototype="int UserProtocol(char *in_file, char *out_file);"
+
+[CVI_TraverseFolder]
+Class="Function"
+Prototype="int CVI_TraverseFolder(char *folder_in, char *folder_out);"
+
+[FolderProcess]
+Class="Function"
+Prototype="void FolderProcess(char *folder_in, char *folder_out);"
+

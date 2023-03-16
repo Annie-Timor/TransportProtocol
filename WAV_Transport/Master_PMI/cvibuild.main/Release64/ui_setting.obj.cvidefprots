@@ -1,0 +1,20 @@
+[UI_ScanComPort]
+Class="Function"
+Prototype="void UI_ScanComPort();"
+
+[UI_OpenSerialPort]
+Class="Function"
+Prototype="void UI_OpenSerialPort();"
+
+[UI_SelectFile]
+Class="Function"
+Prototype="void UI_SelectFile(int control);"
+
+[SendStartSignal]
+Class="Function"
+Prototype="void SendStartSignal();"
+
+[Schedule]
+Class="Function"
+Prototype="void Schedule(int cur_position, int total_size);"
+

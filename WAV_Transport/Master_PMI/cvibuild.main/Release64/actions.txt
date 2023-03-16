@@ -1,0 +1,16 @@
+
+CallCC.bat 1 "f:\CVI_Space\PMI\com_port.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\com_port.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\com_port.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\com_port.obj.out" 
+
+CallCC.bat 2 "f:\CVI_Space\PMI\crcLib.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\crcLib.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\crcLib.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\crcLib.obj.out" 
+
+CallCC.bat 3 "f:\CVI_Space\PMI\main.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\main.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\main.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\main.obj.out" 
+
+CallCC.bat 4 "f:\CVI_Space\PMI\protocol.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\protocol.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\protocol.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\protocol.obj.out" 
+
+CallCC.bat 5 "f:\CVI_Space\PMI\ui_setting.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\ui_setting.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\ui_setting.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\ui_setting.obj.out" 
+
+CallCC.bat 6 "f:\CVI_Space\PMI\wav_read.c" "f:\CVI_Space\PMI\cvibuild.main\Release64\wav_read.obj" "f:\CVI_Space\PMI\cvibuild.main\Release64\wav_read.obj.cvidefprots" "f:\CVI_Space\PMI\cvibuild.main\Release64\wav_read.obj.out" 
+
+CallRC.bat "f:\CVI_Space\PMI\cvibuild.main\Release64\resources.in.rc" "f:\CVI_Space\PMI\cvibuild.main\Release64\resources.res"
+
+CallLink.bat -cmd:link_options.txt

@@ -1,0 +1,1 @@
+-force-include-file "com_port.c";"f:\CVI_Space\PMI\com_port.c" -force-include-file "crcLib.c";"f:\CVI_Space\PMI\crcLib.c" -force-include-file "main.c";"f:\CVI_Space\PMI\main.c" -force-include-file "protocol.c";"f:\CVI_Space\PMI\protocol.c" -force-include-file "ui_setting.c";"f:\CVI_Space\PMI\ui_setting.c" -force-include-file "wav_read.c";"f:\CVI_Space\PMI\wav_read.c" 

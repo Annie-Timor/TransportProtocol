@@ -1,0 +1,72 @@
+HDRS = 	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\activex\\word"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\activex\\excel"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\custctrl"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\cvirtsup"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\datasock"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\daqUtil"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\printing"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\toolbox"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\reportgen"
+	"e:\\labwindows\\ni_software\\cvi2017\\toolslib\\localui"
+	"e:\\labwindows\\ni_software\\cvi2017\\instr"
+	"E:\\LABVIEW\\NI_Software\\Shared\\CVI\\toolslib\\custctrl"
+	"E:\\LABVIEW\\NI_Software\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"E:\\LABVIEW\\NI_Software\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"e:\\labwindows\\ni_software\\cvi2017\\include"
+	"E:\\LABVIEW\\NI_Software\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"e:\\labwindows\\ni_software\\cvi2017\\include\\ansi"
+	"e:\\labwindows\\ni_software\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files\\IVI Foundation\\VISA\\win64\\include"
+	"E:\\LABVIEW\\NI_Software\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"e:\\Labwindows\\NI_Software\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"e:\\LABVIEW\\NI_Software\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "com_port.c" = "f:\\CVI_Space\\PMI" ;
+LOCATE on "crcLib.c" = "f:\\CVI_Space\\PMI" ;
+LOCATE on "main.c" = "f:\\CVI_Space\\PMI" ;
+LOCATE on "protocol.c" = "f:\\CVI_Space\\PMI" ;
+LOCATE on "ui_setting.c" = "f:\\CVI_Space\\PMI" ;
+LOCATE on "wav_read.c" = "f:\\CVI_Space\\PMI" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj" : "f:\\CVI_Space\\PMI\\com_port.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj" = 1 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\com_port.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj" : "f:\\CVI_Space\\PMI\\crcLib.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj" = 2 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\crcLib.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj" : "f:\\CVI_Space\\PMI\\main.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj" = 3 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj" : "f:\\CVI_Space\\PMI\\protocol.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj" = 4 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\protocol.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj" : "f:\\CVI_Space\\PMI\\ui_setting.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj" = 5 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\ui_setting.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj" : "f:\\CVI_Space\\PMI\\wav_read.c" ;
+FILENUM on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj" = 6 ;
+DEFPROTS on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj.cvidefprots" ;
+OUTFILE on "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj" = "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj.out" ;
+PrjObjects += "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\wav_read.obj" ;
+Object "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\resources.res" : "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\resources.in.rc" ;
+Depends "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\resources.res" : "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\manifest.xml" ;
+MainFromObjects "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.exe" : "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\link_options.txt" ;
+Depends "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.exe" : "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\resources.res" ;
+Depends all : "f:\\CVI_Space\\PMI\\cvibuild.main\\Release64\\main.exe" ;

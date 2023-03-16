@@ -1,0 +1,38 @@
+-nologo
+-out:f:\CVI_Space\PMI\cvibuild.main\Release64\main.exe
+-arch:x64
+-timestamp
+-res:f:\CVI_Space\PMI\cvibuild.main\Release64\resources.res
+-entry:CVIWinMainStartupCode
+-base:0x400000
+-linked:f:\CVI_Space\PMI\cvibuild.main\Release64\linkersummary.txt
+-dlldeps:f:\CVI_Space\PMI\cvibuild.main\Release64\dlldependencies.txt
+-licensing:f:\CVI_Space\PMI\cvibuild.main\Release64\linkerlicensing.txt
+-browsedeps:f:\CVI_Space\PMI\cvibuild.main\Release64\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\com_port.obj
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\crcLib.obj
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\main.obj
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\protocol.obj
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\ui_setting.obj
+-in:f:\CVI_Space\PMI\cvibuild.main\Release64\wav_read.obj
+-more:e:\labwindows\ni_software\cvi2017\bin\msvc64\cvistart.lib
+-more:e:\labwindows\ni_software\cvi2017\bin\msvc64\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2017\bin\msvc64\analysis.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cviauto.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cvidotnet.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cvinetstreams.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cvinetv.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cvintwrk.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\gdi32.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\kernel32.lib
+-more:e:\Labwindows\NI_Software\CVI2017\bin\msvc64\omp.lib
+-more:e:\Labwindows\NI_Software\CVI2017\toolslib\toolbox\msvc64\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\uuid.lib
+-more:e:\LABVIEW\NI_Software\Shared\CVI\Bin\msvc64\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\winmm.lib

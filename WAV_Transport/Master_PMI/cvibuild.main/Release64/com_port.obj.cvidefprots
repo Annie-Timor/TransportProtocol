@@ -1,0 +1,4 @@
+[GetComNum]
+Class="Function"
+Prototype="int GetComNum(char (*strSerialList)[25], int *comNum);"
+

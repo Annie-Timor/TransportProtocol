@@ -1,0 +1,84 @@
+[crc4_itu]
+Class="Function"
+Prototype="unsigned char crc4_itu(unsigned char *data, unsigned short length);"
+
+[crc5_epc]
+Class="Function"
+Prototype="unsigned char crc5_epc(unsigned char *data, unsigned short length);"
+
+[crc5_itu]
+Class="Function"
+Prototype="unsigned char crc5_itu(unsigned char *data, unsigned short length);"
+
+[crc5_usb]
+Class="Function"
+Prototype="unsigned char crc5_usb(unsigned char *data, unsigned short length);"
+
+[crc6_itu]
+Class="Function"
+Prototype="unsigned char crc6_itu(unsigned char *data, unsigned short length);"
+
+[crc7_mmc]
+Class="Function"
+Prototype="unsigned char crc7_mmc(unsigned char *data, unsigned short length);"
+
+[crc8]
+Class="Function"
+Prototype="unsigned char crc8(unsigned char *data, unsigned short length);"
+
+[crc8_itu]
+Class="Function"
+Prototype="unsigned char crc8_itu(unsigned char *data, unsigned short length);"
+
+[crc8_rohc]
+Class="Function"
+Prototype="unsigned char crc8_rohc(unsigned char *data, unsigned short length);"
+
+[crc8_maxim]
+Class="Function"
+Prototype="unsigned char crc8_maxim(unsigned char *data, unsigned short length);"
+
+[crc16_ibm]
+Class="Function"
+Prototype="unsigned short crc16_ibm(unsigned char *data, unsigned short length);"
+
+[crc16_maxim]
+Class="Function"
+Prototype="unsigned short crc16_maxim(unsigned char *data, unsigned short length);"
+
+[crc16_usb]
+Class="Function"
+Prototype="unsigned short crc16_usb(unsigned char *data, unsigned short length);"
+
+[crc16_modbus]
+Class="Function"
+Prototype="unsigned short crc16_modbus(unsigned char *data, unsigned short length);"
+
+[crc16_ccitt]
+Class="Function"
+Prototype="unsigned short crc16_ccitt(unsigned char *data, unsigned short length);"
+
+[crc16_ccitt_false]
+Class="Function"
+Prototype="unsigned short crc16_ccitt_false(unsigned char *data, unsigned short length);"
+
+[crc16_x25]
+Class="Function"
+Prototype="unsigned short crc16_x25(unsigned char *data, unsigned short length);"
+
+[crc16_xmodem]
+Class="Function"
+Prototype="unsigned short crc16_xmodem(unsigned char *data, unsigned short length);"
+
+[crc16_dnp]
+Class="Function"
+Prototype="unsigned short crc16_dnp(unsigned char *data, unsigned short length);"
+
+[crc32]
+Class="Function"
+Prototype="unsigned int crc32(unsigned char *data, unsigned short length);"
+
+[crc32_mpeg_2]
+Class="Function"
+Prototype="unsigned int crc32_mpeg_2(unsigned char *data, unsigned short length);"
+

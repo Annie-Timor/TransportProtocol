@@ -1,0 +1,32 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QUIT]
+Class="Function"
+Prototype="int QUIT(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SCAN_PORT_CALLBACK]
+Class="Function"
+Prototype="int SCAN_PORT_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OPEN_PORT_CALLBACK]
+Class="Function"
+Prototype="int OPEN_PORT_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[START_RUN_CALLBACK]
+Class="Function"
+Prototype="int START_RUN_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SELECT_IN_FILE_CALLBACK]
+Class="Function"
+Prototype="int SELECT_IN_FILE_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SELECT_OUT_FILE_CALLBACK]
+Class="Function"
+Prototype="int SELECT_OUT_FILE_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CLEAR_TEXT_CALLBACK]
+Class="Function"
+Prototype="int CLEAR_TEXT_CALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

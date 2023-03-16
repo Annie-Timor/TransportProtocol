@@ -1,0 +1,20 @@
+[WAV_AnalyzeHead]
+Class="Function"
+Prototype="int WAV_AnalyzeHead(FILE *fp_in, WAV_HEAD *h);"
+
+[WAV_WriteHead]
+Class="Function"
+Prototype="int WAV_WriteHead(FILE *fp_in, WAV_HEAD *h);"
+
+[WAV_ReadBuffer]
+Class="Function"
+Prototype="int WAV_ReadBuffer(FILE *fp_in, short *buf, int n);"
+
+[WAV_ReadAll]
+Class="Function"
+Prototype="short *WAV_ReadAll(FILE *fp_in, int *n);"
+
+[WAV_WriteBuffer]
+Class="Function"
+Prototype="int WAV_WriteBuffer(FILE *fp_in, const short *buf, int n);"
+
